@@ -23,6 +23,6 @@ legend("topright", pch = "_", col = c("black","blue", "red"), legend = c("Sub_me
 # chart 4
 plot(data$datetime, data$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
 
-dev.copy(png, file="plot4.png")
+dev.copy(png, file="plot4.png",width=480, height=480 )
 dev.off()
 

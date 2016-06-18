@@ -7,5 +7,5 @@ data <- cbind(datetime, data)
 
 plot(data$datetime, data$Global_active_power, type = "l", ylab="Global Avtive Power (kimowatts)")
 
-dev.copy(png, file="plot2.png")
+dev.copy(png, file="plot2.png", width=480, height=480)
 dev.off()
